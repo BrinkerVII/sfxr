@@ -22,10 +22,6 @@
 
 #include "sdlkit.h"
 
-
-#include <stdio.h>
-#include <string.h>
-
 void error (const char *file, unsigned int line, const char *msg)
 {
 	fprintf(stderr, "[!] %s:%u  %s\n", file, line, msg);

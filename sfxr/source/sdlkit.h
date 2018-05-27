@@ -25,7 +25,9 @@
 
 #include "SDL.h"
 #include <string>
-
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
 
 #define ERROR(x) error(__FILE__, __LINE__, #x)
 #define VERIFY(x) do { if (!(x)) ERROR(x); } while (0)
